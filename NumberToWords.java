@@ -1,3 +1,10 @@
+/* WAP To convert any number to into words. The program will take input n as number (can be anything between 0 to 100000000) and print the words equivalent of it.
+	input: 125
+	output: One hundred twenty five
+	
+	input 2074
+	output: Two thousand seventy four */
+	
 package com.ito.assignment2;
 
 
@@ -59,7 +66,7 @@ public class NumberToWords
 	public static void main(String[] args)
 	{
 		NumberToWords obj = new NumberToWords();
-		System.out.println(obj.convert(12345678));
+		System.out.println(obj.convert(87));
 		
 	}
 }
